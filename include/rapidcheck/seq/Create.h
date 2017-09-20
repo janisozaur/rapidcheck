@@ -50,4 +50,4 @@ inline Seq<std::pair<std::size_t, std::size_t>> subranges(std::size_t start,
 } // namespace seq
 } // namespace rc
 
-#include "Create.hpp"
+#include "rapidcheck/seq/Create.hpp"

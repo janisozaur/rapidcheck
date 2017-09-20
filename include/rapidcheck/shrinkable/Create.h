@@ -43,4 +43,4 @@ Shrinkable<Decay<T>> shrinkRecur(T &&value, const Shrink &shrinkf);
 } // namespace shrinkable
 } // namespace rc
 
-#include "Create.hpp"
+#include "rapidcheck/shrinkable/Create.hpp"

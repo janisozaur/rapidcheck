@@ -36,4 +36,4 @@ Maybe<Shrinkable<T>> walkPath(const Shrinkable<T> &shrinkable,
 } // namespace shrinkable
 } // namespace rc
 
-#include "Operations.hpp"
+#include "rapidcheck/shrinkable/Operations.hpp"

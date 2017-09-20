@@ -11,4 +11,4 @@ Gen<Maybe<T>> maybe(Gen<T> gen);
 } // namespace gen
 } // namespace rc
 
-#include "Maybe.hpp"
+#include "rapidcheck/gen/Maybe.hpp"

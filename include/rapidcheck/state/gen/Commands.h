@@ -31,4 +31,4 @@ auto commands(MakeInitialState &&initialState, GenerationFunc &&genFunc)
 } // namespace state
 } // namespace rc
 
-#include "Commands.hpp"
+#include "rapidcheck/state/gen/Commands.hpp"

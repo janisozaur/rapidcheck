@@ -97,4 +97,4 @@ std::ostream &operator<<(std::ostream &os, const Maybe<T> &value);
 
 } // namespace rc
 
-#include "Maybe.hpp"
+#include "rapidcheck/Maybe.hpp"

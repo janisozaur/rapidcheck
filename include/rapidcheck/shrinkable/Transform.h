@@ -43,4 +43,4 @@ Shrinkable<T> postShrink(Shrinkable<T> shrinkable, Shrink &&shrink);
 } // namespace shrinkable
 } // namespace rc
 
-#include "Transform.hpp"
+#include "rapidcheck/shrinkable/Transform.hpp"

@@ -73,4 +73,4 @@ Seq<T> cast(Seq<U> seq);
 } // namespace seq
 } // namespace rc
 
-#include "Transform.hpp"
+#include "rapidcheck/seq/Transform.hpp"

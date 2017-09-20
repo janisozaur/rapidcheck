@@ -40,4 +40,4 @@ Maybe<T> at(Seq<T> seq, std::size_t index);
 } // namespace seq
 } // namespace rc
 
-#include "Operations.hpp"
+#include "rapidcheck/seq/Operations.hpp"

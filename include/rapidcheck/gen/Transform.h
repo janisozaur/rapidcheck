@@ -70,4 +70,4 @@ Gen<T> shrink(Gen<T> gen, Shrink &&shrink);
 } // namespace gen
 } // namespace rc
 
-#include "Transform.hpp"
+#include "rapidcheck/gen/Transform.hpp"

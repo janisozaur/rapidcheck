@@ -19,4 +19,4 @@ lazy(Callable &&callable);
 } // namespace gen
 } // namespace rc
 
-#include "Create.hpp"
+#include "rapidcheck/gen/Create.hpp"

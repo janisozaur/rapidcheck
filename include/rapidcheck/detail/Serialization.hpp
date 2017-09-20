@@ -1,4 +1,4 @@
-#include "Serialization.h"
+#include "rapidcheck/detail/Serialization.h"
 
 #include <limits>
 
