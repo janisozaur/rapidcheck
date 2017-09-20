@@ -2,6 +2,7 @@
 
 #include "User.h"
 
+namespace {
 rc::Gen<std::string> genFirstName() {
   return rc::gen::weightedOneOf<std::string>(
       {{4, rc::gen::arbitrary<std::string>()},
@@ -24,6 +25,7 @@ rc::Gen<std::string> genTown() {
        rc::gen::element<std::string>(
            "Stockholm", "New York", "San Francisco", "Gothenburg")},
   });
+}
 }
 
 namespace rc {
