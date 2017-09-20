@@ -92,9 +92,9 @@ bool Database::get(const std::string &username, User &user) {
 
   const auto response = m_connection->sendMessage(Message("get", {username}));
   if (response.type == "ok") {
-    const auto it =
+    const auto it2 =
         deserialize(begin(response.params), end(response.params), user);
-    if (it == begin(response.params)) {
+    if (it2 == begin(response.params)) {
       throw std::runtime_error("Invalid response");
     }
     return true;
