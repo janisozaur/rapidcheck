@@ -4,11 +4,6 @@ using namespace rc;
 
 enum class Gender { Male, Female };
 
-std::ostream &operator<<(std::ostream &os, Gender gender) {
-  os << ((gender == Gender::Male) ? "Male" : "Female");
-  return os;
-}
-
 struct User {
   std::string username;
   Gender gender;
